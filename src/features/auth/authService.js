@@ -1,7 +1,7 @@
 import axios from "axios";
 import Cookies from "js-cookie";
 
-const API_URL = "/api/users/";
+const API_URL = "https://mern-jwt-api-nine.vercel.app/api/users/";
 
 // Register user
 const register = async (userData) => {
