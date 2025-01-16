@@ -6,13 +6,13 @@
     },
     {
       "source": "/(.*)",
-      "destination": "/login"
+      "destination": "/"
     }
   ],
   "redirects": [
     {
       "source": "/",
-      "destination": "/",
+      "destination": "/login",
       "permanent": true
     }
   ],
