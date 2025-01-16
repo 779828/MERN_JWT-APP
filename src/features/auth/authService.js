@@ -36,8 +36,6 @@ const login = async (userData) => {
     Cookies.set("user", JSON.stringify(response.data), {
       expires: expirationDate,
     });
-
-    console.log("we are getting data");
   }
 
   return response.data;
